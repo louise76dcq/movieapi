@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lducrocq\\source\\repos\\MovieApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92EE6-92FE-4328-A142-B6E399A3B5D0}|MovieAPI\\MovieAPI.csproj|c:\\users\\lducrocq\\source\\repos\\movieapi\\movieapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92EE6-92FE-4328-A142-B6E399A3B5D0}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92EE6-92FE-4328-A142-B6E399A3B5D0}|MovieAPI\\MovieAPI.csproj|c:\\users\\lducrocq\\source\\repos\\movieapi\\movieapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92EE6-92FE-4328-A142-B6E399A3B5D0}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92EE6-92FE-4328-A142-B6E399A3B5D0}|MovieAPI\\MovieAPI.csproj|c:\\users\\lducrocq\\source\\repos\\movieapi\\movieapi\\models\\movierepertory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92EE6-92FE-4328-A142-B6E399A3B5D0}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\models\\movierepertory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92EE6-92FE-4328-A142-B6E399A3B5D0}|MovieAPI\\MovieAPI.csproj|c:\\users\\lducrocq\\source\\repos\\movieapi\\movieapi\\data\\apicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92EE6-92FE-4328-A142-B6E399A3B5D0}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\data\\apicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92EE6-92FE-4328-A142-B6E399A3B5D0}|MovieAPI\\MovieAPI.csproj|c:\\users\\lducrocq\\source\\repos\\movieapi\\movieapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F2E92EE6-92FE-4328-A142-B6E399A3B5D0}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MovieRepertory.cs",
+              "DocumentMoniker": "C:\\Users\\lducrocq\\source\\repos\\MovieApi\\MovieApi\\Models\\MovieRepertory.cs",
+              "RelativeDocumentMoniker": "MovieApi\\Models\\MovieRepertory.cs",
+              "ToolTip": "C:\\Users\\lducrocq\\source\\repos\\MovieApi\\MovieApi\\Models\\MovieRepertory.cs",
+              "RelativeToolTip": "MovieApi\\Models\\MovieRepertory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T06:25:08.557Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lducrocq\\source\\repos\\MovieApi\\MovieApi\\Program.cs",
+              "RelativeDocumentMoniker": "MovieApi\\Program.cs",
+              "ToolTip": "C:\\Users\\lducrocq\\source\\repos\\MovieApi\\MovieApi\\Program.cs",
+              "RelativeToolTip": "MovieApi\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwCEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T06:23:03.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\lducrocq\\source\\repos\\MovieApi\\MovieApi\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "MovieApi\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\lducrocq\\source\\repos\\MovieApi\\MovieApi\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "MovieApi\\Controllers\\MovieController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T06:40:11.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lducrocq\\source\\repos\\MovieApi\\MovieApi\\appsettings.json",
+              "RelativeDocumentMoniker": "MovieApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\lducrocq\\source\\repos\\MovieApi\\MovieApi\\appsettings.json",
+              "RelativeToolTip": "MovieApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-04T07:56:00.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "APIContext.cs",
+              "DocumentMoniker": "C:\\Users\\lducrocq\\source\\repos\\MovieApi\\MovieApi\\Data\\APIContext.cs",
+              "RelativeDocumentMoniker": "MovieApi\\Data\\APIContext.cs",
+              "ToolTip": "C:\\Users\\lducrocq\\source\\repos\\MovieApi\\MovieApi\\Data\\APIContext.cs",
+              "RelativeToolTip": "MovieApi\\Data\\APIContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T06:29:53.93Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
