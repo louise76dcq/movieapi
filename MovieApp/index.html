@@ -10,6 +10,11 @@
     <title>Document</title>
 </head>
 <body>
+    <img src="egomovie ressource\Logo.png" alt="logo">
+    <h1>EgoMovie
+        <br>
+        Tous vos films préférés en un seul point
+    </h1>
     <title> Liste des films</title>
     <table>
         <thead>
@@ -36,13 +41,28 @@
         <input placeholder="Annee" id="Year" type="number">
         <br>
         <button type="button" onclick="postMovie()">Ajouter</button>
-        
+       
+    </form>
+    <br>
 
-        
-
+    <h1>Modifier un Film</h1>
+    <form id="modifyMovieForm" onsubmit="modifyMovie(); ">
+        <label for="id">ID du film :</label>
+        <input type="text" id="id" name="id"><br><br>
+    
+        <label for="movieName">Nom du film :</label>
+        <input type="text" id="movieName" name="movieName" placeholder="Entrez le nom du film" required><br><br>
+    
+        <label for="movieDirector">Réalisateur :</label>
+        <input type="text" id="movieDirector" name="movieDirector" placeholder="Entrez le nom du réalisateur" required><br><br>
+    
+        <label for="movieYear">Année :</label>
+        <input type="number" id="movieYear" name="movieYear" placeholder="Entrez l'année de sortie" required><br><br>
+    
+        <button type="submit">Modifier le film</button>
     </form>
     
-    
+
 </body>
 
 
