@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <title> Liste des films</title>
+    <table>
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Realisateur</th>
+                <th>Annee</th>
+                <th>Action</th>
+            </tr>            
+        </thead>
+        <tbody id="moviesTableBody">
+            
+        </tbody>
+
+    </table>
+    
+    <br>
+
+    <form>
+        <input placeholder="Nom du film" id="Movie" type="text">
+        <br>
+        <input placeholder="Realisateur"id="Director"type="text">
+        <br>
+        <input placeholder="Annee" id="Year" type="number">
+        <br>
+        <button type="button" onclick="postMovie()">Ajouter</button>
+        
+
+        
+
+    </form>
+    
+    
+</body>
+
+
+</html>
+
+

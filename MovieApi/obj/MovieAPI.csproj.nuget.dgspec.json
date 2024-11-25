@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lducrocq\\source\\repos\\MovieApi\\MovieAPI\\MovieAPI.csproj": {}
+    "C:\\Users\\lducrocq\\Desktop\\movieapi\\MovieAPI\\MovieAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lducrocq\\source\\repos\\MovieApi\\MovieAPI\\MovieAPI.csproj": {
+    "C:\\Users\\lducrocq\\Desktop\\movieapi\\MovieAPI\\MovieAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lducrocq\\source\\repos\\MovieApi\\MovieAPI\\MovieAPI.csproj",
+        "projectUniqueName": "C:\\Users\\lducrocq\\Desktop\\movieapi\\MovieAPI\\MovieAPI.csproj",
         "projectName": "MovieAPI",
-        "projectPath": "C:\\Users\\lducrocq\\source\\repos\\MovieApi\\MovieAPI\\MovieAPI.csproj",
+        "projectPath": "C:\\Users\\lducrocq\\Desktop\\movieapi\\MovieAPI\\MovieAPI.csproj",
         "packagesPath": "C:\\Users\\lducrocq\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lducrocq\\source\\repos\\MovieApi\\MovieAPI\\obj\\",
+        "outputPath": "C:\\Users\\lducrocq\\Desktop\\movieapi\\MovieAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lducrocq\\AppData\\Roaming\\NuGet\\NuGet.Config",

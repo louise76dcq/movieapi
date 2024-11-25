@@ -1014,11 +1014,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lducrocq\\source\\repos\\MovieApi\\MovieApi\\MovieApi.csproj",
-      "projectName": "MovieApi",
-      "projectPath": "C:\\Users\\lducrocq\\source\\repos\\MovieApi\\MovieApi\\MovieApi.csproj",
+      "projectUniqueName": "C:\\Users\\lducrocq\\Desktop\\movieapi\\MovieAPI\\MovieAPI.csproj",
+      "projectName": "MovieAPI",
+      "projectPath": "C:\\Users\\lducrocq\\Desktop\\movieapi\\MovieAPI\\MovieAPI.csproj",
       "packagesPath": "C:\\Users\\lducrocq\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lducrocq\\source\\repos\\MovieApi\\MovieApi\\obj\\",
+      "outputPath": "C:\\Users\\lducrocq\\Desktop\\movieapi\\MovieAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lducrocq\\AppData\\Roaming\\NuGet\\NuGet.Config",

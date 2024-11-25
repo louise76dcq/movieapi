@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modifier un film</title>
+</head>
+<body>
+    <h1>Modifier un film</h1>
+    
+       <form id="modifyForm">
+        <input placeholder="Nom du film" id="movieName" type="text">
+        <input placeholder="Realisateur" id="movieDirector" type="text">
+        <input placeholder="Annee" id="movieYear" type="number">
+        <input type="hidden" id="id"> 
+        <button type="button" onclick="modifyMovie()">Modifier</button>
+    </form>
+
+    <script>
+        function modifyMovie()  {
+            const id = document.getElementById("id").value;
+            const movieName = document.getElementById("movieName").value;
+            const movieDirector = document.getElementById("movieDirector").value;
+            const movieYear = document.getElementById("movieYear").value;
+
+            const movieData = {
+                movieName: movieName,
+                movieDirector: movieDirector,
+                movieYear: parseInt(movieYear, 10),
+            };
+
+            
+            fetch(`http://localhost:5170/api/Movie/Edit/${id}`, {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(movieData) 
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert('Film modifié avec succès!');
+                    window.location.href = 'index.html'; 
+                } else {
+                    alert('Erreur lors de la modification du film');
+                }
+            })
+            .catch(error => {
+                console.error('Erreur dans la promesse:', error);
+                alert('Erreur de connexion');
+            });
+        }
+    </script>
+</body>
+</html>
