@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using MovieAPI.Models;
 using MovieAPI.Data;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace MovieAPI.Controllers
 {
@@ -18,53 +19,63 @@ namespace MovieAPI.Controllers
         }
 
         [HttpPost]
-        public JsonResult CreateEdit(Movie movies)
+        public JsonResult CreateEdit(Movie movie)
         {
-            if (movies.Id == 0)
-            { 
-                _context.Movies.Add(movies);
+            if (movie.Id == 0)
+            {
+                _context.Movies.Add(movie);
             }
             else
             {
-                var moviesInDb = _context.Movies.Find(movies.Id);
+                var movieInDb = _context.Movies.Find(movie.Id);
 
-                if (moviesInDb == null)
+                if (movieInDb == null)
                     return new JsonResult(NotFound());
 
-                moviesInDb = movies;
+                // Mise à jour des propriétés de l'objet trouvé
+                movieInDb.MovieName = movie.MovieName;
+                movieInDb.MovieYear = movie.MovieYear;
+                movieInDb.MovieDirector = movie.MovieDirector;
             }
-
 
             _context.SaveChanges();
 
-            return new JsonResult(Ok(movies));
-
+            return new JsonResult(Ok(movie));
         }
 
         [HttpPut]
-        public JsonResult Edit(Movie movies)
+        public JsonResult Edit(Movie movie)
         {
-            if (movies.Id == 0)
+            if (!ModelState.IsValid)
             {
-                Console.WriteLine("veuillez ajouter ce film avant de le modifier");
+                return new JsonResult(BadRequest(ModelState));
+            }
+
+            if (movie.Id == 0)
+            {
+                Console.WriteLine("Veuillez ajouter ce film avant de le modifier");
+                return new JsonResult(BadRequest("Veuillez ajouter ce film avant de le modifier"));
             }
             else
             {
-                var moviesInDb = _context.Movies.Find(movies.Id);
+                var movieInDb = _context.Movies.Find(movie.Id);
 
-                if (moviesInDb == null)
+                if (movieInDb == null)
                     return new JsonResult(NotFound());
 
-                moviesInDb = movies;
+                // Mise à jour des propriétés de l'objet trouvé
+                movieInDb.MovieName = movie.MovieName;
+                movieInDb.MovieYear = movie.MovieYear;
+                movieInDb.MovieDirector = movie.MovieDirector;
+
+                // Attacher l'entité modifiée au contexte et marquer ses propriétés comme modifiées
+                _context.Entry(movieInDb).State = EntityState.Modified;
             }
 
             _context.SaveChanges();
 
-            return new JsonResult(Ok(movies));
-
+            return new JsonResult(Ok(movie));
         }
-
-
 
         [HttpDelete]
         public JsonResult Delete(int id)
@@ -80,15 +91,11 @@ namespace MovieAPI.Controllers
             return new JsonResult(NoContent());
         }
 
-
-        [HttpGet("/GetAll")]
+        [HttpGet]
         public JsonResult GetAll()
         {
-        
             var result = _context.Movies.ToList();
-
             return new JsonResult(Ok(result));
         }
-
     }
 }

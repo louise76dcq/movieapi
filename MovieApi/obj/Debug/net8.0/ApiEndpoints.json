@@ -8,8 +8,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "movies",
-        "Type": "MovieAPI.Models.Movie",
+        "Name": "movie",
+        "Type": "Movie",
         "IsRequired": true
       }
     ],
@@ -40,8 +40,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "movies",
-        "Type": "MovieAPI.Models.Movie",
+        "Name": "movie",
+        "Type": "Movie",
         "IsRequired": true
       }
     ],
@@ -50,7 +50,7 @@
   {
     "ContainingType": "MovieAPI.Controllers.MovieController",
     "Method": "GetAll",
-    "RelativePath": "GetAll",
+    "RelativePath": "api/Movie/GetAll",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
